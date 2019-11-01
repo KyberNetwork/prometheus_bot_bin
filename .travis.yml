@@ -15,7 +15,7 @@ deploy:
   file: prometheus_bot_$TRAVIS_TAG.tar.bz2
   on:
     tags: true
-    repo: favadi/prometheus_bot_bin
+    repo: KyberNetwork/prometheus_bot_bin
 
 go:
   - 1.10.x
